@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>swiss bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header>
+        <h1 class="text-5xl text-center mt-6">Welcome to <span class="font-semibold text-violet-600">Swiss Bank!!!</span></h1>
+    </header>
+    <main>
+        <section class="bg-blue-100 w-9/12 mx-auto mt-12 p-8">
+            <h3 class="text-3xl mb-4 font-medium">please login</h3>
+            <div>
+                <input class="w-9/12 block mb-2 px-3 py-1" type="email" id="email-field" placeholder="your email address">
+                <input id="user-password" class="w-9/12 block px-3 py-1" type="password"placeholder="your password">
+                <button id="btn-submit" class="bg-violet-600 text-white mt-3 px-6 py-2 font-medium rounded-lg hover:bg-white hover:text-violet-600">Submit</button>
+            </div>
+        </section>
+    </main>
+  <script src="./js/login.js"></script>  
 </body>
 </html>
